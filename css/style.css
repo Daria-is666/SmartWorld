@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background: 0;
+    font-family: 'Quicksand-Medium', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+margin: 0;
+}
+
+/*container*/
+.container {
+    width: 100%;
+    max-width: 1643px;
+}
+
+/*intro*/   
+.intro {
+    width: 1921px;
+    height: 1044px;
+background: url("../image/intro.png") center no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+}
+ 
+.intro_inner{    
+    position: absolute;
+    top:208px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    max-width: 611px;
+    margin: 0 auto;
+}
+
+.intro_title {  
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.intro_text{
+    color: #929292;
+    font-size: 16px;
+    text-align: center;
+}
+
+.intro_device {
+    position:  absolute;
+    top: 250px;
+    left:0px;
+    right: 0px;
+    width: 100%;
+    max-width:910px ;
+    margin: 0 auto;
+
+    z-index: 1000;    
+  
+}
+
+/*header*/
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.header_logo {
+    font-size: 36px;
+    font-weight: 500; 
+    text-align: center;
+    line-height: 90px; 
+    color: #ffffff;
+    background: url("../image/logo.png") top left no-repeat;
+    width: 180px;
+    height: 101px; 
+}
+
+
+/*nav*/
+.nav {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.nav_link {
+    color: #929292; 
+    text-decoration: none;
+    transition: color .2s linear;
+    margin: 0px 15px ;
+}
+
+.nav_link:hover {
+    color: #0F7BFF;
+}
+
+/*Button*/
+.btn{
+display: inline-block;
+vertical-align: center;
+background-color: #0063DD;
+color: #ffffff;
+padding: 5px 30px;
+border-radius: 50px;
+text-decoration: none;
+border: 2px solid #0063DD;
+ transition: color .2s linear;
+}
+.btn:hover {
+    background-color:#ffffff;
+    color: #0063DD;
+    border-color:  #0063DD;
+    
+}
