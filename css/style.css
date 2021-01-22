@@ -636,6 +636,91 @@ height: 653px;
     line-height: 18px;
 }
 
+/*  testimonials*/
+.testimonials
+{
+    position: relative;
+    display: flex;
+    height: 450px;
+    background: url(../image/bg@1.5x\ \(4\).png);
+}
+.testimonials_inner
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.testimonials_foto
+{
+    display: flex;
+    width: 501px;
+    height: auto;
+}
+.testimonials_title
+{
+margin: 0 auto;
+text-align: center;
+color: #333333;
+font-family: Quicksand;
+font-size: 21px;
+font-weight: 500;
+}
+.testimonials_carousel
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+}
+
+/* carousel
+==================== */
+.carousel-item
+{
+    width: 265px;
+    height: 193px;
+    margin: 0 auto;
+
+
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 0 45px rgba(165, 165, 165, 0.25);
+}
+.carousel-item h4
+{
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.carousel-item h5
+{
+    color: #929292;
+    font-family: Quicksand;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 19px;
+}
+.carousel-item p
+{
+    color: #929292;
+    font-family: Quicksand;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: left;
+}
+.carousel-indicators
+{
+    margin-bottom: -50px;
+    justify-content: left;
+}
+
 
 /* Footer 
 ==================*/
@@ -916,6 +1001,12 @@ button:before {
         font-size: 10px;
         margin: 0 auto;
     }
+
+
+    .testimonials_inner img
+    {
+        display: none;
+    }
 }
 
 
@@ -936,6 +1027,7 @@ button:before {
     {
         display: block;
     }
+
 
 
     /* Feature
@@ -965,19 +1057,19 @@ button:before {
     {
         flex-direction: row;
     }
-    .testimonials_inner
+    .testimonials_inner img
     {
-        width: 100%;
-        max-width: 501px; 
-        margin: 0 auto;
+    width: 100%;
+    height: auto;
     }
     /* Carousel */
     .testimonials_carousel
     {
         
         width: 100%;
-        max-width: 785px; 
+        max-width: 500px; 
     }
+    
 
     /* About 
     ===========*/
@@ -1024,6 +1116,7 @@ button:before {
         width: 100%;
         height: auto;
     };
+
     /* Footer
     =============== */
     .footer
@@ -1052,11 +1145,6 @@ button:before {
     {
         display: none;
     }
-
-    /* .email_btn
-    {
-        margin: 0 auto;
-    } */
 
 }
 
